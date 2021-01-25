@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Thank you for tuning into Channel 5!</title>
+  
+  <link rel="apple-touch-icon" sizes="144x144" href="http://stanivision.com/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://stanivision.com/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://stanivision.com/favicon-16x16.png">
+  <link rel="manifest" href="http://stanivision.com/site.webmanifest">
+  <link rel="mask-icon" href="http://stanivision.com/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+<style>
+
+    body {
+        /*Adapted from http://www.infinitywebdesign.com/research/cssverticalcentereddiv.htm*/
+        position:absolute;
+        top: 20%;
+        left: 32.5%;
+        width: 65em;
+        height:18em;
+        margin-top: -9em; /*set to a negative number 1/2 of your height*/
+        margin-left: -15em; /*set to a negative number 1/2 of your width*/
+
+        background-color: black;
+        font-family: 'Roboto';
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        outline: 0;
+        border: none;
+        -moz-outline-style: none;
+    }
+
+    .content_box_title {
+        font-size: 62px;
+        text-align: left;
+
+        display: inline-block; 
+        vertical-align: middle; 
+        line-height: 1;
+
+        font-family: 'runescape';
+    }
+
+    .content_box_title_icon {
+        float: right;
+        display: inline-block; 
+        vertical-align: middle; 
+        line-height: 1;
+    }
+
+    .content_box {
+        border-style: double;
+        border-width: medium;
+        border-radius: 10px;
+        border-color: blue;
+    }
+
+    .white_cuttout {
+        height: 60px;
+        width: 100%;
+        background-color: white;
+
+        line-height: 60px;
+        font-size: 40px;
+        text-align: left;
+        color: black;
+    }
+
+    .black_cuttout {
+        height: 60px;
+        width: 100%;
+        background-color: black;
+
+        line-height: 60px;
+        font-size: 40px;
+        text-align: left;
+        color: white;
+    }
+
+    @font-face { font-family: runescape; src: url('Minecraft.ttf');}
+
+</style></head>
+
+
+
+<body cz-shortcut-listen="true">
+
+    <div class=content_box_title>
+
+        <hr color="blue" size="2.5">
+        <hr color="blue" size="2.5" style="margin-top: -20px;">
+
+        <p>• • • • TONIGHT'S SCHEDULE • • • •</p>
+
+        <hr color="blue" size="2.5">
+        <hr color="blue" size="2.5" style="margin-top: -20px;">
+
+    </div>
+
+    <div class=content_box>
+    
+        <iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23616161&amp;ctz=America%2FNew_York&amp;src=YjBhdGxjZmF1anJrajV2dWV0bTFhMG9jdG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=bHIxb3MycGQ3cXE4bjNocDVoczZyMmFjbnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MTQ2cDNsajkzcnFzZHNsYWNsZ3I1M2U0bDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=b2FzaGM2czI3dXFoOWFzcjNzYXQzcHRycW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%238E24AA&amp;color=%23F09300&amp;color=%23D50000&amp;color=%23F4511E&amp;color=%23009688&amp;showPrint=1&amp;showTabs=1&amp;title=%20" style="border-width:0" width="1035" height="500" frameborder="0" scrolling="no"></iframe>    
+        
+    </div>
+
+<script>
+
+//Adapted from https://www.w3schools.com/howto/howto_js_typewriter.asp
+
+var i = 0;
+var txt = 'Stanivision';
+var speed = 200;
+
+setTimeout(typeWriter, 0);
+
+function typeWriter() {
+    if (i < txt.length) {
+        //document.getElementsByClassName("content_box_title")[0].innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    }
+}
+
+</script>
+
+
+</body></html>
